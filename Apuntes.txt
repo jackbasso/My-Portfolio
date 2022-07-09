@@ -1,0 +1,20 @@
+1. Instalación 
+$ npm create next-app nombreApp
+2. Run server
+$ npm run dev
+3. Creo mi component folder in the main root
+4. Create a new component name Navbar and with rafce automaticaly it create a react structure.
+5. Install Tailwindcss.com => Get started => Framework Guide tap => Nextjs it should be the first one
+$ npm install -D tailwindcss postcss autoprefixer
+$ npx tailwindcss init -p
+6. Follow the guide and Add the paths to all of my template files in the tailwind.config.js file.
+7. Replace all the css in global.css with this:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+8. Install Tailwind CSS IntelliSense extension to Visual Studio
+9. Install Prettier - Code formatter extension
+10. Install ES7+ React/Redux/React-Native snippets extension
+
+
+
