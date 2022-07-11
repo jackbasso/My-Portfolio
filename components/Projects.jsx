@@ -3,8 +3,8 @@ import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import reservApp from '../public/assets/projects/reservApp.jpg'
+import jackApp from '../public/assets/projects/jackApp.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -18,27 +18,27 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Property Finder'
-            backgroundImg={propertyImg}
+            backgroundImg={reservApp}
             projectUrl='/property'
             tech='React JS'
           />
           <ProjectItem
             title='Crypto App'
-            backgroundImg={cryptoImg}
+            backgroundImg={jackApp}
             projectUrl='/crypto'
             tech='React JS'
 
           />
           <ProjectItem
             title='Netflix App'
-            backgroundImg={netflixImg}
+            backgroundImg={propertyImg}
             projectUrl='/netflix'
             tech='React JS'
 
           />
           <ProjectItem
             title='Twitch UI'
-            backgroundImg={twitchImg}
+            backgroundImg={cryptoImg}
             projectUrl='/twitch'
             tech='Next JS'
 
